@@ -5,6 +5,9 @@
  */
 package paquete2;
 
+import paquete1.Mensaje;
+import static paquete1.Mensaje.obtenerFrase;
+
 
 /**
  *
@@ -16,8 +19,7 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        System.out.printf();
+        System.out.printf(Mensaje.obtenerFrase());
     }
     
 }
